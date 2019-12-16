@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* we can import css from node modules here if not added to .angular-cli.json */
+/* @import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; */
+/* @import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css'; */
+
+@import "variables";
+
+.highlight {
+    color: $magenta;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.container-fluid {
+    display: inline-block;    
+}
+
+.panel-center {
+    width: 50%;
+    text-align: center;
+    margin: 100px auto; 
+    color: #888;      
+}
+
+.animated {
+    .delay-1s {
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        animation-delay: 1s;
+    }
+
+    .animated.delay-6s {
+        -webkit-animation-delay: 6s;
+        -moz-animation-delay: 6s;
+        animation-delay: 6s;
+    }
+}
